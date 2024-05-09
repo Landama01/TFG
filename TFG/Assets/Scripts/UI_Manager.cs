@@ -6,6 +6,7 @@ public class UI_Manager : MonoBehaviour
 {
     [SerializeField] private GameObject EventPanelUserInRange;
     [SerializeField] private GameObject EventPanelUserNotInRange;
+    [SerializeField] private GameObject EventPanelUserInfo;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,18 @@ public class UI_Manager : MonoBehaviour
     public void CloseButtonClick()
     {
         EventPanelUserNotInRange.SetActive(false);
+        EventPanelUserInRange.SetActive(false);
+    }
+
+    public void InfoCloseButton()
+    {
+        EventPanelUserInRange.SetActive(true);
+        EventPanelUserInfo.SetActive(false);
+    }
+
+    public void InfoButtonClick()
+    {
+        EventPanelUserInfo.SetActive(true);
         EventPanelUserInRange.SetActive(false);
     }
 }
