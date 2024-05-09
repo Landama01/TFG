@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638501727273191323
-    m_Hash: 3880679034
+      ticks: 638508554034291494
+    m_Hash: 1278526061
   m_LockFileStatus:
     m_FilePath: C:/Users/Andreu/Desktop/Andreu/Uni/TFG/TFG/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638501727273236918
-    m_Hash: 3147420723
+      ticks: 638508554034291494
+    m_Hash: 1716570522
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
