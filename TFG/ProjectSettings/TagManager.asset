@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - RedBullet
+  - BlueBullet
+  - RedTank
+  - BlueTank
+  - Limits
+  - AI_Destination
   layers:
   - Default
   - TransparentFX
@@ -14,9 +20,9 @@ TagManager:
   - 
   - 
   - 
+  - AI Plane
   - 
-  - 
-  - 
+  - Player
   - 
   - 
   - 
